@@ -23,7 +23,7 @@ header {
     background-image: url("../images/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 
     height: 343px;
     padding: 2rem 0;
