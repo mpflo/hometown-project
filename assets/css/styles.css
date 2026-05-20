@@ -34,12 +34,12 @@ body {
 header {
     background-color: rgba(0, 0, 0, 0.273);
     background-blend-mode: multiply;
-    background-image: url("../images/banner.webp");
+    background-image: url("../images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 
-    height: 343px;
+    height: 25rem;
     padding: 2rem 0;
 
     text-align: center;
