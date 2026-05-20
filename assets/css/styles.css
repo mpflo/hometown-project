@@ -45,6 +45,12 @@ header {
     
 }
 
+#locais {
+    .itens {
+        display: flex;
+    }
+}
+
 @media (min-width: 993px) {
     body {
         header {
