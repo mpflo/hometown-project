@@ -75,6 +75,7 @@ header {
         margin-bottom: 2rem;
         color: #3134bb;
         font-size: 1.5rem;
+        margin-top: 0;
     }
     .itens {
         display: flex;
@@ -90,9 +91,17 @@ header {
             border-radius: 1rem;
             padding: 2rem;
             box-sizing: border-box;
+            border: 1px solid #d1d1fc;
+            color: #1f191a;
 
             display: flex;
             flex-direction: column;
+
+            &:hover {
+                border: 1px solid #9797fb;
+                color: #242696;
+                box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+            }
 
             figure {
                 flex: 0 0 auto;
@@ -110,6 +119,7 @@ header {
             .texto {
                 flex: 0 0 auto;
                 width: 100%;
+                font-weight: 300;
             }
         }
     }
@@ -133,7 +143,7 @@ header {
                 justify-content: space-between;
                 align-items: center;
                 gap: 0 1.5rem;
-                color: #1f191a;
+                
 
                 figure {
                     flex: 0 0 auto;
