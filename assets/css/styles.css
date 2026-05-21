@@ -17,7 +17,7 @@ body {
     }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 63rem) {
     body {
         header {
             h1 {
@@ -125,7 +125,7 @@ header {
     }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 63rem) {
     #locais {
         h2 {
             font-size: 2rem;
@@ -165,5 +165,78 @@ header {
         }
     }
 
+}
+
+#perfil {
+    .conteudo {
+        box-sizing: border-box;
+        background: linear-gradient(#9797fb, #d3d3ee);
+        border-radius: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem 0;
+
+        animation: upDown ease-out 2s infinite;
+
+        figure {
+            flex: 0 0 auto;
+            width: 50%;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+        }
+        .texto {
+            flex: 0 0 auto;
+            width: 100%;
+            padding: 0 1rem 1rem;
+            text-align: center;
+            box-sizing: border-box;
+            h2 {
+                margin: 0;
+            }
+
+            h3 {
+                color: #242696;
+            }
+        }
+    }
+}
+
+/* animacao upDown */
+@keyframes upDown {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+
+}
+
+@media (min-width: 63rem) {
+    #perfil {
+        .conteudo {
+            width: 35rem;
+            margin: 0 auto;
+
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+            figure {
+                width: 48%;
+            }
+
+            .texto {
+                width: 49%;
+                padding: 0 1rem 0 0;
+                text-align: start;
+            }
+        }
+    }
 }
 
