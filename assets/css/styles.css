@@ -169,6 +169,7 @@ header {
 
 #perfil {
     .conteudo {
+        padding: 2rem 0;
         box-sizing: border-box;
         background: linear-gradient(#9797fb, #d3d3ee);
         border-radius: 1rem;
